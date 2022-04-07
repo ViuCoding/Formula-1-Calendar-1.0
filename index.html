@@ -1,88 +1,763 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 1.0</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>F1 1.0</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-
-<body>
-
-
-
-
-
-  <section id="bahrain">
-    <div class="race-main-container">
-      <div class="year-round">
-        <p class="year">2022</p>
-        <p class="round">ROUND 1</p>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="./logo-F1.png" alt="" />
       </div>
+    </nav>
 
-      <div class="divider" style="background-color: red;"></div>
+    <div class="mega-container">
+      <!-- ROUND 1 -->
+      <section id="bahrain">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 1</p>
+          </div>
 
-      <div class="track-container">
-        <p class="track-name">Bahrain International Circuit</p>
-        <img src="./tracks/1-Bahrain.png" alt="" class="track-img" style="width: 180px;" />
-        <p class="first-gp">First GP 2004</p>
-        <p class="laps">57 Laps 5.412km</p>
-        <p class="winner">Last Winner L.Hamilton</p>
-      </div>
+          <div class="divider" style="background-color: #8d1b3d"></div>
 
-      <div class="divider" style="background-color: red;"></div>
+          <div class="track-container">
+            <p class="track-name">Bahrain International Circuit</p>
+            <img src="./tracks/1-Bahrain.png" alt="" class="track-img" style="width: 180px" />
+            <p class="first-gp">First GP 2004</p>
+            <p class="laps">57 Laps 5.412km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
 
-      <footer class="footer-flex">
-        <div class="grand-prix">
-          <p class="nation">BAHRAIN</p>
-          <p class="gp-name">GRAND PRIX</p>
+          <div class="divider" style="background-color: #8d1b3d"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #8d1b3d">
+              <p class="nation">BAHRAIN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+
+            <div class="flag">
+              <img src="./flags/Qatar.jpg" alt="" class="flag-img" style="border: 0.5px solid black" />
+            </div>
+          </footer>
         </div>
+      </section>
 
-        <div class="flag">
-          <img src="./flags/Bahrain.jpg" alt="" class="flag-img" style="border: .5px solid black">
+      <!-- ROUND 2 -->
+
+      <section id="jeddah">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 2</p>
+          </div>
+
+          <div class="divider" style="background-color: #006c35"></div>
+
+          <div class="track-container">
+            <p class="track-name">Jeddah Corniche Circuit</p>
+            <img src="./tracks/2-Jeddah.png" alt="" class="track-img" />
+            <p class="first-gp">First GP 2021</p>
+            <p class="laps">50 Laps 6.174km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
+
+          <div class="divider" style="background-color: #006c35"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #006c35">
+              <p class="nation" style="font-size: 0.95em">SAUDI ARABIAN</p>
+              <p class="gp-name" style="font-size: 0.95em">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Saudi Arabia.png" alt="" class="flag-img" />
+            </div>
+          </footer>
         </div>
-      </footer>
+      </section>
+
+      <!-- ROUND 3 -->
+
+      <section id="melbourne">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 3</p>
+          </div>
+
+          <div class="divider" style="background-color: #171796"></div>
+
+          <div class="track-container">
+            <p class="track-name">Melbourne Albert Park Circuit</p>
+            <img src="./tracks/3-Melbourne.png" alt="" class="track-img" />
+            <p class="first-gp">First GP 1996</p>
+            <p class="laps">58 Laps 5.303km</p>
+            <p class="winner">Last Winner V.Bottas</p>
+          </div>
+
+          <div class="divider" style="background-color: #171796"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #d9261c">
+              <p class="nation">AUSTRALIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Australia.jpg" alt="" class="flag-img" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 4 -->
+
+      <section id="imola">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 4</p>
+          </div>
+
+          <div class="divider" style="background-color: #5eb6e4"></div>
+
+          <div class="track-container">
+            <p class="track-name">Autodromo Enzo & Dino Ferrari</p>
+            <img src="./tracks/4-Imola.png" alt="" class="track-img" />
+            <p class="first-gp">First GP 1980</p>
+            <p class="laps">63 Laps 4.909km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #5eb6e4"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #5eb6e4">
+              <p class="nation" style="font-size: 0.83em">GRAN PREMIO</p>
+              <p class="gp-name" style="font-size: 0.83em">EMILIA ROMAGNA</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/san marino.png" alt="" class="flag-img" style="border: 0.5px solid black" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 5 -->
+
+      <section id="miami">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 5</p>
+          </div>
+
+          <div class="divider" style="background-color: #b32134"></div>
+
+          <div class="track-container">
+            <p class="track-name">Miami International Autodrome</p>
+            <img src="./tracks/5-Miami.png" alt="" class="track-img" style="width: 280px" />
+            <p class="first-gp">First GP 2022</p>
+            <p class="laps">57 Laps 5.410km</p>
+            <p class="winner">Last Winner TBD</p>
+          </div>
+
+          <div class="divider" style="background-color: #b32134"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #2e3192">
+              <p class="nation">MIAMI</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Usa.png" alt="" class="flag-img" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 6 -->
+
+      <section id="barcelona">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 6</p>
+          </div>
+
+          <div class="divider" style="background-color: #fdc300"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit de Barcelona-Catalunya</p>
+            <img src="./tracks/6-Barcelona.png" alt="" class="track-img" style="width: 280px" />
+            <p class="first-gp">First GP 1991</p>
+            <p class="laps">66 Laps 4.675km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
+
+          <div class="divider" style="background-color: #fdc300"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #c60b1e">
+              <p class="nation">SPANISH</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Spain.png" alt="" class="flag-img" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 7 -->
+
+      <section id="monaco">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 7</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1127"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit de Monaco</p>
+            <img src="./tracks/7-Monaco.png" alt="" class="track-img" style="transform: rotateZ(18deg); width: 160px" />
+            <p class="first-gp">First GP 1950</p>
+            <p class="laps">78 Laps 3.337km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1127"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #ce1127">
+              <p class="nation">MONACO</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Monaco.png" alt="" class="flag-img" style="border: 0.5px solid black" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 8 -->
+
+      <section id="baku">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 8</p>
+          </div>
+
+          <div class="divider" style="background-color: #00bae5"></div>
+
+          <div class="track-container">
+            <p class="track-name">Baku City Circuit</p>
+            <img src="./tracks/8-Baku.png" alt="" class="track-img" style="width: 250px" />
+            <p class="first-gp">First GP 2017</p>
+            <p class="laps">51 Laps 6.003km</p>
+            <p class="winner">Last Winner S.Pérez</p>
+          </div>
+
+          <div class="divider" style="background-color: #3d9d32"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #00bae5">
+              <p class="nation">AZERBAIJAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Azerbaijan.png" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 9 -->
+
+      <section id=" montreal">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 9</p>
+          </div>
+
+          <div class="divider" style="background-color: #d50100"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit Gilles Villeneuve</p>
+            <img src="./tracks/9-Montreal.png" alt="" class="track-img" style="width: 280px" />
+            <p class="first-gp">First GP 1978</p>
+            <p class="laps">70 Laps 4.361km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
+
+          <div class="divider" style="background-color: #d50100"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #d50100">
+              <p class="nation">CANADIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Canada.png" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 10 -->
+
+      <section id=" silverstone">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 10</p>
+          </div>
+
+          <div class="divider" style="background-color: #f10506"></div>
+
+          <div class="track-container">
+            <p class="track-name">Silverstone Circuit</p>
+            <img src="./tracks/10-Silverstone.png" alt="" class="track-img" style="width: 165px" />
+            <p class="first-gp">First GP 1950</p>
+            <p class="laps">52 Laps 5.891km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
+
+          <div class="divider" style="background-color: #f10506"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #092c70">
+              <p class="nation">BRITISH</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/UK.png" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 11 -->
+
+      <section id=" austria">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 11</p>
+          </div>
+
+          <div class="divider" style="background-color: #ec2738"></div>
+
+          <div class="track-container">
+            <p class="track-name">Red Bull Ring</p>
+            <img src="./tracks/11-RBRing.png" alt="" class="track-img" style="width: 150px" />
+            <p class="first-gp">First GP 1970</p>
+            <p class="laps">71 Laps 4.318km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ec2738"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #ec2738">
+              <p class="nation">AUSTRIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Austria.jpg" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 12 -->
+
+      <section id=" france">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 12</p>
+          </div>
+
+          <div class="divider" style="background-color: #ed2839"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit Paul Ricard</p>
+            <img src="./tracks/12-PaulRicard.png" alt="" class="track-img" style="width: 300px" />
+            <p class="first-gp">First GP 1971</p>
+            <p class="laps">53 Laps 5.842km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ed2839"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #002496">
+              <p class="nation">FRENCH</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/France.png" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 13 -->
+
+      <section id=" hungary">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 13</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1126"></div>
+
+          <div class="track-container">
+            <p class="track-name">Hungaroring</p>
+            <img src="./tracks/13-Hungaroring.png" alt="" class="track-img" style="width: 110px" />
+            <p class="first-gp">First GP 1986</p>
+            <p class="laps">53 Laps 4.381km</p>
+            <p class="winner">Last Winner E.Ocon</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1126"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #008751">
+              <p class="nation">HUNGARIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Hungary.png" alt="" class="flag-img""></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 14 -->
+
+      <section id=" spa">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 14</p>
+          </div>
+
+          <div class="divider" style="background-color: #f31830"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit de Spa-Francorchamps</p>
+            <img src="./tracks/14-SPA.png" alt="" class="track-img" style="width: 180px" />
+            <p class="first-gp">First GP 1950</p>
+            <p class="laps">44 Laps 7.004km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ffd90c"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #000000">
+              <p class="nation">BELGIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Belgium.png" alt="" class="flag-img" style="height: 65px" /></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 15 -->
+
+      <section id=" zandvoort">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 15</p>
+          </div>
+
+          <div class="divider" style="background-color: #ae1c27"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit Zandvoort</p>
+            <img src="./tracks/15-Zandvoort.png" alt="" class="track-img" style="width: 130px" />
+            <p class="first-gp">First GP 1952</p>
+            <p class="laps">72 Laps 4.259km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ae1c27"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #21468c">
+              <p class="nation">DUTCH</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag"><img src="./flags/Netherland.png" alt="" class="flag-img" /></div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 16 -->
+
+      <section id=" monza">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 16</p>
+          </div>
+
+          <div class="divider" style="background-color: #cf2b36"></div>
+
+          <div class="track-container">
+            <p class="track-name">Autodromo Nazionale Monza</p>
+            <img src="./tracks/16-Monza.png" alt="" class="track-img" />
+            <p class="first-gp">First GP 1950</p>
+            <p class="laps">53 Laps 5.793km</p>
+            <p class="winner">Last Winner D.Ricciardo</p>
+          </div>
+
+          <div class="divider" style="background-color: #cf2b36"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #cf2b36">
+              <p class="nation">ITALIAN</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Italy.png" alt="" class="flag-img" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 17 -->
+
+      <section id=" kyalami">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 17</p>
+          </div>
+
+          <div class="divider" style="background-color: #df3830"></div>
+
+          <div class="track-container">
+            <p class="track-name">Kyalami Grand Prix Circuit</p>
+            <img src="./tracks/17-Kyalami.png" alt="" class="track-img" style="width: 130px" />
+            <p class="first-gp">First GP 1961</p>
+            <p class="laps">72 Laps 4.529km</p>
+            <p class="winner">Last Winner A.Prost</p>
+          </div>
+
+          <div class="divider" style="background-color: #00794c"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #fdb311">
+              <p class="nation" style="font-size: 0.92em">SOUTH AFRICAN</p>
+              <p class="gp-name" style="font-size: 0.92em">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/South Africa.png" alt="" class="flag-img" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 18 -->
+
+      <section id=" singapore">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 18</p>
+          </div>
+
+          <div class="divider" style="background-color: #ed2839"></div>
+
+          <div class="track-container">
+            <p class="track-name">Marina Bay Street Circuit</p>
+            <img src="./tracks/18-Singapore.png" alt="" class="track-img" style="width: 180px" />
+            <p class="first-gp">First GP 2008</p>
+            <p class="laps">61 Laps 5.063km</p>
+            <p class="winner">Last Winner S.Vettel</p>
+          </div>
+
+          <div class="divider" style="background-color: #ed2839"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #ed2839">
+              <p class="nation">SINGAPORE</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Singapore.png" alt="" class="flag-img" style="border: 0.5px solid black" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 19 -->
+
+      <section id=" japan">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 19</p>
+          </div>
+
+          <div class="divider" style="background-color: #bd0029"></div>
+
+          <div class="track-container">
+            <p class="track-name">Suzuka International Racing Course</p>
+            <img src="./tracks/19-Suzuka.png" alt="" class="track-img" style="width: 85px; transform: rotateZ(90deg)" />
+            <p class="first-gp">First GP 1963</p>
+            <p class="laps">53 Laps 5.807km</p>
+            <p class="winner">Last Winner V.Bottas</p>
+          </div>
+
+          <div class="divider" style="background-color: #bd0029"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #bd0029">
+              <p class="nation">JAPANESE</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Japan.png" alt="" class="flag-img" style="border: 0.5px solid black" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 20 -->
+
+      <section id=" austin">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 20</p>
+          </div>
+
+          <div class="divider" style="background-color: #2e3192"></div>
+
+          <div class="track-container">
+            <p class="track-name">Circuit of the Americas</p>
+            <img src="./tracks/20-COTA.png" alt="" class="track-img" style="width: 180px" />
+            <p class="first-gp">First GP 2012</p>
+            <p class="laps">56 Laps 5.5513km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #2e3192"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #b32134">
+              <p class="nation" style="font-size: 0.97em">UNITED STATES</p>
+              <p class="gp-name" style="font-size: 0.97em">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Usa.png" alt="" class="flag-img" style="height: 65px" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 21 -->
+
+      <section id=" mexico">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 21</p>
+          </div>
+
+          <div class="divider" style="background-color: #006847"></div>
+
+          <div class="track-container">
+            <p class="track-name">Autódromo Hermanos Rodríguez</p>
+            <img src="./tracks/21-MexicoCity.png" alt="" class="track-img" style="width: 160px" />
+            <p class="first-gp">First GP 1962</p>
+            <p class="laps">71 Laps 4..04km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1127"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #006847">
+              <p class="nation">MEXICO CITY</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/Mexico.png" alt="" class="flag-img" style="height: 65px" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 22 -->
+
+      <section id=" brazil">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 22</p>
+          </div>
+
+          <div class="divider" style="background-color: #122d76"></div>
+
+          <div class="track-container">
+            <p class="track-name">Autódromo Interlagos</p>
+            <img src="./tracks/22-Interlagos.png" alt="" class="track-img" style="width: 190px" />
+            <p class="first-gp">First GP 1973</p>
+            <p class="laps">71 Laps 4.309km</p>
+            <p class="winner">Last Winner L.Hamilton</p>
+          </div>
+
+          <div class="divider" style="background-color: #122d76"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #ffdf00">
+              <p class="nation" style="color: #009c3b">SÃO PAULO</p>
+              <p class="gp-name" style="color: #009c3b">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/brazil.png" alt="" class="flag-img" style="height: 65px" />
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <!-- ROUND 23 -->
+
+      <section id=" abu">
+        <div class="race-main-container">
+          <div class="year-round">
+            <p class="year">2022</p>
+            <p class="round">ROUND 23</p>
+          </div>
+
+          <div class="divider" style="background-color: #ce1127"></div>
+
+          <div class="track-container">
+            <p class="track-name">Yas Marina Circuit</p>
+            <img src="./tracks/23-AbuDhabi.png" alt="" class="track-img" style="width: 110px" />
+            <p class="first-gp">First GP 2009</p>
+            <p class="laps">58 Laps 5.281km</p>
+            <p class="winner">Last Winner M.Verstappen</p>
+          </div>
+
+          <div class="divider" style="background-color: #000000"></div>
+
+          <footer class="footer-flex">
+            <div class="grand-prix" style="background-color: #009e49">
+              <p class="nation">ABU DHABI</p>
+              <p class="gp-name">GRAND PRIX</p>
+            </div>
+            <div class="flag">
+              <img src="./flags/UAE.png" alt="" class="flag-img" style="height: 65px" />
+            </div>
+          </footer>
+        </div>
+      </section>
     </div>
-  </section>
-  <section id="monza">
-    <div class="race-main-container">
-      <div class="year-round">
-        <p class="year">2022</p>
-        <p class="round">ROUND 16</p>
-      </div>
-
-      <div class="divider"></div>
-
-      <div class="track-container">
-        <p class="track-name">Autodromo Nazionale Monza</p>
-        <img src="./tracks/16-Monza.png" alt="" class="track-img" />
-        <p class="first-gp">First GP 1950</p>
-        <p class="laps">53 Laps 5.793km</p>
-        <p class="winner">Last Winner D.Ricciardo</p>
-      </div>
-
-      <div class="divider"></div>
-
-      <footer class="footer-flex">
-        <div class="grand-prix">
-          <p class="nation">ITALIAN</p>
-          <p class="gp-name">GRAND PRIX</p>
-        </div>
-        <div class="flag">
-          <img src="./flags/Italy.png" alt="" class="flag-img">
-        </div>
-      </footer>
-    </div>
-  </section>
-
-
-
-
-
-
-
-
-
+  </body>
 </html>
